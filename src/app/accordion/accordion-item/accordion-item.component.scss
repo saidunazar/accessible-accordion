@@ -1,0 +1,40 @@
+@import "~src/scss/colors";
+@import "~src/scss/fonts";
+
+.item {
+  border-bottom: 2px solid $primary-black;
+
+  .item-main {
+    padding: 17px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+
+    .item-id {
+      font-family: $heading-font-family;
+      font-size: 25px;
+    }
+
+    .item-question {
+      font-family: $body-font-family;
+      font-weight: $text-regular;
+      font-size: 13px;
+      flex-grow: 4;
+      margin-top: 10px;
+    }
+
+    .item-icon {
+      height: 20px;
+      padding: 10px;
+      background-color: $primary-yellow;
+      cursor: pointer;
+    }
+  }
+
+  .item-content {
+    font-family: oswald-regular;
+    font-size: 15px;
+    padding: 12px;
+  }
+}

@@ -1,0 +1,19 @@
+@import "~src/scss/colors";
+@import "~src/scss/fonts";
+
+.container {
+  font-family: $body-font-family;
+  color: $primary-black;
+  margin: auto;
+  max-width: 750px;
+
+  header {
+    margin-bottom: 15px;
+    border-bottom: 20px solid $primary-black;
+  }
+
+  h1 {
+    font-family: $heading-font-family;
+    font-size: 35px;
+  }
+}

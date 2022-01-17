@@ -1,0 +1,21 @@
+<div class="item">
+  <div class="item-main" [@titleState]="!showContent ? 'initial' : 'final'">
+    <span class="item-id">Q{{ faq.id }}</span>
+    <span class="item-question">
+      {{ faq.question }}
+    </span>
+    <span class="item-toggle" (click)="toggleAccordion()">
+      <img
+        [src]="!showContent ? plusIcon : closeIcon"
+        alt="accordion-icon"
+        class="item-icon"
+      />
+    </span>
+  </div>
+  <div
+    [@contentState]="!showContent ? 'initial' : 'final'"
+    class="item-content"
+  >
+    {{ faq.answer }}
+  </div>
+</div>

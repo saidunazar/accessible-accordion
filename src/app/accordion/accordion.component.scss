@@ -1,0 +1,10 @@
+@import "~src/scss/colors";
+@import "~src/scss/fonts";
+
+.error-notification {
+  h3 {
+    color: $error-red;
+    text-align: center;
+    margin: 50px;
+  }
+}

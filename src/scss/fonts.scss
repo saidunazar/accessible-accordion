@@ -1,0 +1,26 @@
+/* Importing font family from assets */
+
+@font-face {
+  font-family: "oswald-regular";
+  src: url(../assets/font/oswald-regular.ttf);
+}
+@font-face {
+  font-family: "oswald-light";
+  src: url(../assets/font/oswald-light.ttf) format("TrueType");
+}
+@font-face {
+  font-family: "oswald-bold";
+  src: url(../assets/font/oswald-bold.ttf) format("TrueType");
+}
+
+/* Primary fonts used in this application */
+
+$heading-font-family: oswald-bold;
+$body-font-family: oswald-regular;
+
+/* Font weights */
+
+$text-light: 300;
+$text-regular: 500;
+$text-medium: 600;
+$text-bold: 700;
